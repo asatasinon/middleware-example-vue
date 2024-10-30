@@ -1,0 +1,124 @@
+{
+  "nav": {
+    "language": "Language",
+    "home": "Home",
+    "database": "Database",
+    "messageQueue": "Message Queue",
+    "redis": "Redis Example",
+    "mysql": "MySQL Example",
+    "kafka": "Kafka Example",
+    "rocketmq": "RocketMQ Example"
+  },
+  "home": {
+    "title": "Middleware Examples",
+    "subtitle": "A Collection of Middleware Usage",
+    "description": "This project demonstrates various middleware examples, including basic operations of databases and message queues.",
+    "database": {
+      "title": "Database Examples",
+      "description": "Including basic operations of Redis and MySQL"
+    },
+    "messageQueue": {
+      "title": "Message Queue Examples",
+      "description": "Including basic operations of Kafka and RocketMQ"
+    },
+    "viewOnGithub": "View on GitHub"
+  },
+  "auth": {
+    "login": "Sign In",
+    "register": "Create Account",
+    "forgotPassword": "Reset Password",
+    "resetPassword": "Set New Password",
+    "email": "Email Address",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "username": "Username",
+    "rememberMe": "Remember me",
+    "forgotPasswordLink": "Forgot password?",
+    "registerLink": "Sign up now",
+    "loginLink": "Sign in now",
+    "hasAccount": "Already have an account?",
+    "noAccount": "Don't have an account?",
+    "backToLogin": "Back to login",
+    "sendResetLink": "Send Reset Link",
+    "sending": "Sending...",
+    "resetLinkSent": "Password reset link has been sent to your email",
+    "enterEmail": "Enter your email and we'll send you a reset link",
+    "errors": {
+      "invalidEmail": "Please enter a valid email address",
+      "invalidPassword": "Password must be at least 8 characters with uppercase, lowercase and numbers",
+      "passwordMismatch": "Passwords do not match",
+      "invalidUsername": "Username must be 3-20 characters with letters, numbers and underscores only",
+      "sendFailed": "Failed to send, please try again later",
+      "loginFailed": "Login failed, please try again later",
+      "registerFailed": "Registration failed, please try again later"
+    }
+  },
+  "database": {
+    "redis": {
+      "title": "Redis Example",
+      "stringOps": "String Operations",
+      "listOps": "List Operations",
+      "key": "Key",
+      "value": "Value",
+      "set": "Set",
+      "get": "Get",
+      "delete": "Delete",
+      "lpush": "Left Push",
+      "rpush": "Right Push",
+      "range": "Get Range",
+      "result": "Result",
+      "clear": "Clear",
+      "errors": {
+        "keyRequired": "Please enter a key",
+        "valueRequired": "Please enter a value",
+        "operationFailed": "Operation failed"
+      }
+    },
+    "mysql": {
+      "title": "MySQL Example",
+      "query": "Query Operations",
+      "execute": "Execute Query",
+      "result": "Query Result",
+      "sqlPlaceholder": "Enter SQL statement",
+      "errors": {
+        "queryRequired": "Please enter a query",
+        "queryFailed": "Query failed"
+      }
+    }
+  },
+  "mq": {
+    "kafka": {
+      "title": "Kafka Example",
+      "producer": "Producer",
+      "consumer": "Consumer",
+      "topic": "Topic",
+      "message": "Message",
+      "send": "Send Message",
+      "receive": "Receive Message",
+      "messageList": "Message List",
+      "errors": {
+        "topicRequired": "Please enter a topic",
+        "messageRequired": "Please enter a message",
+        "sendFailed": "Send failed",
+        "receiveFailed": "Receive failed"
+      }
+    },
+    "rocketmq": {
+      "title": "RocketMQ Example",
+      "producer": "Producer",
+      "consumer": "Consumer",
+      "topic": "Topic",
+      "message": "Message",
+      "normalMessage": "Normal Message",
+      "delayMessage": "Delay Message",
+      "startListen": "Start Listening",
+      "messageList": "Message List",
+      "errors": {
+        "topicRequired": "Please enter a topic",
+        "messageRequired": "Please enter a message",
+        "sendFailed": "Send failed",
+        "listenFailed": "Listen failed"
+      }
+    }
+  }
+} 

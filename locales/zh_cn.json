@@ -1,0 +1,124 @@
+{
+  "nav": {
+    "language": "语言",
+    "home": "首页",
+    "database": "数据库",
+    "messageQueue": "消息队列",
+    "redis": "Redis 示例",
+    "mysql": "MySQL 示例",
+    "kafka": "Kafka 示例",
+    "rocketmq": "RocketMQ 示例"
+  },
+  "home": {
+    "title": "中间件示例项目",
+    "subtitle": "Middleware Examples",
+    "description": "这是一个展示各种中间件使用示例的项目，包括数据库和消息队列等常用中间件的基本操作。",
+    "database": {
+      "title": "数据库示例",
+      "description": "包含 Redis 和 MySQL 的基本操作示例"
+    },
+    "messageQueue": {
+      "title": "消息队列示例",
+      "description": "包含 Kafka 和 RocketMQ 的基本操作示例"
+    },
+    "viewOnGithub": "在 GitHub 上查看源码"
+  },
+  "auth": {
+    "login": "登录账号",
+    "register": "创建新账号",
+    "forgotPassword": "重置密码",
+    "resetPassword": "设置新密码",
+    "email": "邮箱地址",
+    "password": "密码",
+    "confirmPassword": "确认密码",
+    "username": "用户名",
+    "rememberMe": "记住我",
+    "forgotPasswordLink": "忘记密码？",
+    "registerLink": "立即注册",
+    "loginLink": "立即登录",
+    "hasAccount": "已有账号？",
+    "noAccount": "还没有账号？",
+    "backToLogin": "返回登录",
+    "sendResetLink": "发送重置链接",
+    "sending": "发送中...",
+    "resetLinkSent": "重置密码链接已发送到您的邮箱，请查收",
+    "enterEmail": "输入您的邮箱，我们将发送重置密码链接",
+    "errors": {
+      "invalidEmail": "请输入有效的邮箱地址",
+      "invalidPassword": "密码至少8位，需包含大小写字母和数字",
+      "passwordMismatch": "两次输入的密码不一致",
+      "invalidUsername": "用户名3-20位，只能包含字母、数字和下划线",
+      "sendFailed": "发送失败，请稍后重试",
+      "loginFailed": "登录失败，请稍后重试",
+      "registerFailed": "注册失败，请稍后重试"
+    }
+  },
+  "database": {
+    "redis": {
+      "title": "Redis 示例",
+      "stringOps": "String 操作",
+      "listOps": "List 操作",
+      "key": "键名",
+      "value": "值",
+      "set": "设置",
+      "get": "获取",
+      "delete": "删除",
+      "lpush": "左侧添加",
+      "rpush": "右侧添加",
+      "range": "获取列表",
+      "result": "操作结果",
+      "clear": "清除",
+      "errors": {
+        "keyRequired": "请输入键名",
+        "valueRequired": "请输入值",
+        "operationFailed": "操作失败"
+      }
+    },
+    "mysql": {
+      "title": "MySQL 示例",
+      "query": "查询操作",
+      "execute": "执行查询",
+      "result": "查询结果",
+      "sqlPlaceholder": "输入 SQL 语句",
+      "errors": {
+        "queryRequired": "请输入查询语句",
+        "queryFailed": "查询失败"
+      }
+    }
+  },
+  "mq": {
+    "kafka": {
+      "title": "Kafka 示例",
+      "producer": "生产者",
+      "consumer": "消费者",
+      "topic": "主题",
+      "message": "消息内容",
+      "send": "发送消息",
+      "receive": "接收消息",
+      "messageList": "消息列表",
+      "errors": {
+        "topicRequired": "请输入主题",
+        "messageRequired": "请输入消息内容",
+        "sendFailed": "发送失败",
+        "receiveFailed": "接收失败"
+      }
+    },
+    "rocketmq": {
+      "title": "RocketMQ 示例",
+      "producer": "生产者",
+      "consumer": "消费者",
+      "topic": "主题",
+      "message": "消息内容",
+      "normalMessage": "普通消息",
+      "delayMessage": "延时消息",
+      "startListen": "开始监听",
+      "messageList": "消息列表",
+      "errors": {
+        "topicRequired": "请输入主题",
+        "messageRequired": "请输入消息内容",
+        "sendFailed": "发送失败",
+        "listenFailed": "监听失败"
+      }
+    }
+  }
+} 
